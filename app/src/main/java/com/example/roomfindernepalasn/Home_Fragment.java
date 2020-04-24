@@ -24,7 +24,7 @@ public class Home_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.home_fragment,container,false);
 
-        RecyclerView recyclerView=(RecyclerView)view.findViewById(R.id.recycleView);
+        RecyclerView recycler=(RecyclerView)view.findViewById(R.id.recycleView);
 
         return view;
     }
